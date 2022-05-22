@@ -1,0 +1,37 @@
+@value good-color,neutral-color,bad-color from '../../../css/variables.module.css';
+@value good-color-hover,neutral-color-hover,bad-color-hover from '../../../css/variables.module.css';
+@value text-color from '../../../css/variables.module.css';
+.button {
+  width: 70px;
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  color: text-color;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.buttonGood {
+  background-color: good-color;
+}
+.buttonNeutral {
+  background-color: neutral-color;
+}
+.buttonBad {
+  background-color: bad-color;
+}
+
+.buttonGood:hover {
+  background-color: good-color-hover;
+}
+.buttonNeutral:hover {
+  background-color: neutral-color-hover;
+}
+.buttonBad:hover {
+  background-color: bad-color-hover;
+}

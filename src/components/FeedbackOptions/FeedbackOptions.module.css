@@ -1,0 +1,9 @@
+.list {
+  display: flex;
+  justify-content: left;
+  align-items: stretch;
+}
+
+.item:not(:first-child) {
+  margin-left: 25px;
+}
